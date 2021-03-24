@@ -24,7 +24,7 @@ function App() {
         title: 'Demo'
       }])
     } else {
-      setBtnLabel('Owo')
+      setBtnLabel('One')
       setBtnState(initialState)
     }
   }
