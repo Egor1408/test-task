@@ -18,10 +18,10 @@
   top: 30px;
   left: 30px;
   border-color: #000;
+  outline: none;
 }
 
 .demoOneBtn:hover {
   color: #000;
   border-color: #000;
-  outline: none;
 }
