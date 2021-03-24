@@ -17,6 +17,7 @@
   position: absolute;
   top: 30px;
   left: 30px;
+  border-color: #000;
 }
 
 .demoOneBtn:hover {
