@@ -1,0 +1,32 @@
+.main {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background: url("../../images/cazino.jpg");
+  border-radius: 25px;
+}
+
+.popular-label {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background: yellow;
+  padding: 3px 12px;
+}
+
+.popular-label span {
+  font-weight: 600;
+}
+
+.microgaming-label {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  border: 2px solid yellow;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.microgaming-label span {
+  color: yellow;
+}

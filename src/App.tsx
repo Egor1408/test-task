@@ -1,24 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import Main from './components/Main/Main';
+
 import './App.css';
 
 function App() {
+  const initialState = [
+    {
+      id: 1,
+      title: 'Play'
+    },
+    {
+      id: 2,
+      title: 'Demo'
+    }
+  ]
+  const [btnLabel, setBtnLabel] = useState('One')
+  const [btnState, setBtnState] = useState(initialState)
+  const btnHandler = () => {
+    if (btnState.length > 1) {
+      setBtnLabel('Two')
+      setBtnState([{
+        id: 2,
+        title: 'Demo'
+      }])
+    } else {
+      setBtnLabel('Owo')
+      setBtnState(initialState)
+    }
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Main arrButtons={btnState} />
+      <button className='demoOneBtn' onClick={btnHandler}>{btnLabel} button</button>
     </div>
   );
 }
