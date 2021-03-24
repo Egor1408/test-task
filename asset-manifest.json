@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/test-task/static/css/main.b6f0f823.chunk.css",
+    "main.js": "/test-task/static/js/main.225cf2d5.chunk.js",
+    "main.js.map": "/test-task/static/js/main.225cf2d5.chunk.js.map",
+    "runtime-main.js": "/test-task/static/js/runtime-main.85d5e9a0.js",
+    "runtime-main.js.map": "/test-task/static/js/runtime-main.85d5e9a0.js.map",
+    "static/js/2.cc853293.chunk.js": "/test-task/static/js/2.cc853293.chunk.js",
+    "static/js/2.cc853293.chunk.js.map": "/test-task/static/js/2.cc853293.chunk.js.map",
+    "index.html": "/test-task/index.html",
+    "static/css/main.b6f0f823.chunk.css.map": "/test-task/static/css/main.b6f0f823.chunk.css.map",
+    "static/js/2.cc853293.chunk.js.LICENSE.txt": "/test-task/static/js/2.cc853293.chunk.js.LICENSE.txt",
+    "static/media/Main.css": "/test-task/static/media/cazino.f5b9506a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.85d5e9a0.js",
+    "static/js/2.cc853293.chunk.js",
+    "static/css/main.b6f0f823.chunk.css",
+    "static/js/main.225cf2d5.chunk.js"
+  ]
+}
